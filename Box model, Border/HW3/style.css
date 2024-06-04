@@ -1,0 +1,28 @@
+.rectangle1 {
+  width: 820px;
+  height: 312px;
+  background-color: blue;
+  padding: 50px;
+  margin: 50px;
+  border: 2px solid black;
+}
+.rectangle2 {
+  background-color: yellow;
+  width: 716px;
+  height: 208px;
+  padding: 50px;
+  border: 2px solid black;
+}
+.rectangle3 {
+  background-color: green;
+  width: 612px;
+  height: 104px;
+  padding: 50px;
+  border: 2px solid black;
+}
+.rectangle4 {
+  background-color: pink;
+  width: 508px;
+  padding: 50px;
+  border: 2px solid black;
+}
