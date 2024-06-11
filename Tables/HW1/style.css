@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  border: 1px solid black;
+  margin: 16px;
+  border-collapse: collapse;
+}
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+tr:nth-child(odd):not(:first-child):not(:last-child)
+  > td:not(:first-child):not(:last-child):nth-child(2n) {
+  background-color: black;
+}
+tr:nth-child(even):not(:first-child):not(:last-child)
+  > td:not(:first-child):not(:last-child):nth-child(2n + 1) {
+  background-color: black;
+}
+
+tr:not(:first-child):not(:last-child) > td:not(:first-child):not(:last-child) {
+  border: 1px solid black;
+}
