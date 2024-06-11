@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  text-transform: lowercase;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.container_navigation {
+  display: flex;
+  background-color: #ff7f50;
+  height: 200px;
+  flex: 1;
+}
+.container_products-list {
+  display: flex;
+  background-color: #006400;
+  height: 200px;
+  flex: 1;
+}
+.container_news {
+  display: flex;
+  background-color: #0ff;
+  height: 200px;
+  flex: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
