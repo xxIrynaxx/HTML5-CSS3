@@ -1,0 +1,37 @@
+$sm: 600px;
+$md: 900px;
+$lr: 1200px;
+
+$port: portrait;
+$land: landscape;
+
+@mixin for-small-screen {
+  @media screen and (max-width: $sm-1) {
+    @content;
+  }
+}
+@mixin for-medium-down-screen {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin for-medium-up-screen {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin for-large-screen {
+  @media screen and (min-width: $lr) {
+    @content;
+  }
+}
+@mixin portrait {
+  @media screen and (orientation: $port) {
+    @content;
+  }
+}
+@mixin landscape {
+  @media screen and (orientation: $land) {
+    @content;
+  }
+}
